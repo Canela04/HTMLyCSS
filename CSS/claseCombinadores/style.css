@@ -1,0 +1,33 @@
+/*  Hermano adyacente cercano 
+    Adyacent sibling
+
+    Aplicale color rojo a todas las etiquetas parrafo
+    que esten cerca a un h2 (+)
+*/
+/*h2 + p {
+    color: red;
+
+}*/ 
+/*  Hermano General 
+    General Sibling
+
+    Modifica todas las etiquetas de parrafo que tengan como 
+    hermano general h2
+*/
+/* h2 ~ p{
+    color: red;
+    
+} */
+/*  Hijo directo
+    Child
+
+    La etiqueta parrafo que sea directa de una etiqueta div
+*/
+/* div > p{
+    color: red;
+} */
+
+/* Descendiente */
+div p{
+    color: red;
+}

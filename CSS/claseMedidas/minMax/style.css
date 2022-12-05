@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    background-color: purple;
+}
+
+section {
+    width: 80%;
+    min-width: 320px;/*se necesita un width base(normalmente en %)*/
+    max-width: 500px;
+    min-height: 500px;/*Si tienes mas contenido que exceda los 500 continua creciendo*/
+    margin: 0 auto;/*de arriba y abajo no le agregues ningun margin, pero de izq der que se ajuste auto*/
+    background-color: black;
+}
+
+p{
+    color: white;
+}

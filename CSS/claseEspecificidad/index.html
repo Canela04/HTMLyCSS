@@ -1,0 +1,29 @@
+<!--
+    Especificidad en selectores
+    https://static.platzi.com/media/user_upload/8.Especificidad%20en%20selectores-1b4be9d0-ed66-4e86-b72e-071f0ba80091.jpg
+    Id solo puede haber uno en cada pagina mientras las clases son genericas
+    buena practica es usar clases + selectores en lugar de usar muchos ID
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css"><!--./ para ruta raiz-->
+    <title>Especificidad</title>
+</head>
+<body>
+    <header class="page-header">
+        <h1 id="page-title" class="title">Empresa</h1>
+        <nav>
+            <ul id="main-nav" class="nav" >
+                <li><a href="">Home</a></li>
+                <li><a href="">Cursos</a></li>
+                <li><a href="">Instructores</a></li>
+                <li><a href="" class="blog">Blog</a></li>
+            </ul>
+        </nav>
+    </header>
+</body>
+</html>

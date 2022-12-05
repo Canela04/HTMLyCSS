@@ -1,0 +1,21 @@
+ /*
+    Formas de aplicar estilos a ciertas etiquetas:
+    ~Por elemento (por etiqueta)
+    ~Por clase
+    ~Por id
+ */
+ p {
+    color: blue;
+    font-size: 30px;
+    }
+
+/* class */
+.parrafo{
+    color: red;
+}
+
+/* ID */
+#texto{
+    color: yellow;
+    font-size: 24px;
+}
